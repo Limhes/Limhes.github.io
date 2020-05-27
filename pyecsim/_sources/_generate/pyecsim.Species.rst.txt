@@ -5,10 +5,12 @@ pyecsim.Species
 
 .. autoclass:: Species
    
-    .. rubric:: Attributes
+    .. rubric:: Methods
 
-    .. autoattribute:: normConc
-    .. autoattribute:: normDiffCoeff
-    .. autoattribute:: normEquilConc
+    .. automethod:: getConcInit
+    .. automethod:: setConcInit
+    .. automethod:: getConcEquil
+    .. automethod:: getDiff
+    .. automethod:: setDiff
     
    

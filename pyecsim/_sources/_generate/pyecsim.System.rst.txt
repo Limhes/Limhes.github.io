@@ -9,11 +9,6 @@ pyecsim.System
 
     .. automethod:: addReaction
     .. automethod:: addRedox
-    .. automethod:: addSpecies
-    .. automethod:: generateUniqueSpeciesName
-    .. automethod:: getSpeciesByName
-    .. automethod:: isSpeciesPresentWithName
-
 
    
    

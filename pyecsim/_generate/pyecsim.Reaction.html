@@ -58,6 +58,30 @@
 </dl>
 <p class="rubric">Methods</p>
 <dl class="py method">
+<dt id="pyecsim.Reaction.getKf">
+<code class="sig-name descname">getKf</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Reaction.getKf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the forward rate constant [1/s or L/mol/s]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Reaction.setKf">
+<code class="sig-name descname">setKf</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Reaction.setKf" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the forward rate constant [1/s or L/mol/s]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Reaction.getKb">
+<code class="sig-name descname">getKb</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Reaction.getKb" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get the backward rate constant [1/s or L/mol/s]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Reaction.setKb">
+<code class="sig-name descname">setKb</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Reaction.setKb" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the backward rate constant [1/s or L/mol/s]</p>
+</dd></dl>
+
+<dl class="py method">
 <dt id="pyecsim.Reaction.enable">
 <code class="sig-name descname">enable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Reaction.enable" title="Permalink to this definition">¶</a></dt>
 <dd><p>Enables the reaction and returns the modified Reaction object</p>
@@ -69,17 +93,10 @@
 <dd><p>Disables the reaction and returns the modified Reaction object</p>
 </dd></dl>
 
-<p class="rubric">Attributes</p>
-<dl class="py attribute">
-<dt id="pyecsim.Reaction.rateConstantBackward">
-<code class="sig-name descname">rateConstantBackward</code><a class="headerlink" href="#pyecsim.Reaction.rateConstantBackward" title="Permalink to this definition">¶</a></dt>
-<dd><p>The backward rate constant [1/s or L/mol/s]</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt id="pyecsim.Reaction.rateConstantForward">
-<code class="sig-name descname">rateConstantForward</code><a class="headerlink" href="#pyecsim.Reaction.rateConstantForward" title="Permalink to this definition">¶</a></dt>
-<dd><p>The forward rate constant [1/s or L/mol/s]</p>
+<dl class="py method">
+<dt id="pyecsim.Reaction.isEnabled">
+<code class="sig-name descname">isEnabled</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Reaction.isEnabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns true if the reaction is enabled, false otherwise</p>
 </dd></dl>
 
 </dd></dl>

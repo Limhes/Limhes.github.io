@@ -57,6 +57,54 @@
 </dl>
 <p class="rubric">Methods</p>
 <dl class="py method">
+<dt id="pyecsim.Redox.getNe">
+<code class="sig-name descname">getNe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.getNe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get number of electrons [-]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Redox.setNe">
+<code class="sig-name descname">setNe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.setNe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set number of electrons [-]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Redox.getE0">
+<code class="sig-name descname">getE0</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.getE0" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get standard potential [V]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Redox.setE0">
+<code class="sig-name descname">setE0</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.setE0" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set standard potential [V]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Redox.getKe">
+<code class="sig-name descname">getKe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.getKe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get heterogeneous rate constant [m/s]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Redox.setKe">
+<code class="sig-name descname">setKe</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.setKe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set heterogeneous rate constant [m/s]</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Redox.getAlpha">
+<code class="sig-name descname">getAlpha</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.getAlpha" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get symmetry parameter [-] (0.0 &lt;= alpha &lt;= 1.0)</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="pyecsim.Redox.setAlpha">
+<code class="sig-name descname">setAlpha</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.setAlpha" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set symmetry parameter [-] (0.0 &lt;= alpha &lt;= 1.0)</p>
+</dd></dl>
+
+<dl class="py method">
 <dt id="pyecsim.Redox.enable">
 <code class="sig-name descname">enable</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.enable" title="Permalink to this definition">¶</a></dt>
 <dd><p>Enables the electron transfer step and returns the modified Redox object</p>
@@ -68,29 +116,10 @@
 <dd><p>Disables the electron transfer step and returns the modified Redox object</p>
 </dd></dl>
 
-<p class="rubric">Attributes</p>
-<dl class="py attribute">
-<dt id="pyecsim.Redox.k_e">
-<code class="sig-name descname">k_e</code><a class="headerlink" href="#pyecsim.Redox.k_e" title="Permalink to this definition">¶</a></dt>
-<dd><p>Heterogeneous rate constant [m/s]</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt id="pyecsim.Redox.n">
-<code class="sig-name descname">n</code><a class="headerlink" href="#pyecsim.Redox.n" title="Permalink to this definition">¶</a></dt>
-<dd><p>Number of electrons [-]</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt id="pyecsim.Redox.E">
-<code class="sig-name descname">E</code><a class="headerlink" href="#pyecsim.Redox.E" title="Permalink to this definition">¶</a></dt>
-<dd><p>Standard potential [V]</p>
-</dd></dl>
-
-<dl class="py attribute">
-<dt id="pyecsim.Redox.alpha">
-<code class="sig-name descname">alpha</code><a class="headerlink" href="#pyecsim.Redox.alpha" title="Permalink to this definition">¶</a></dt>
-<dd><p>The backward rate constant [1/s or L/mol/s]</p>
+<dl class="py method">
+<dt id="pyecsim.Redox.isEnabled">
+<code class="sig-name descname">isEnabled</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pyecsim.Redox.isEnabled" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns true if the electron transfer step is enabled, false otherwise</p>
 </dd></dl>
 
 </dd></dl>

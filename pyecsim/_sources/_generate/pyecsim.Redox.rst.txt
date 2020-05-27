@@ -7,15 +7,17 @@ pyecsim.Redox
 
     .. rubric:: Methods
 
+    .. automethod:: getNe
+    .. automethod:: setNe
+    .. automethod:: getE0
+    .. automethod:: setE0
+    .. automethod:: getKe
+    .. automethod:: setKe
+    .. automethod:: getAlpha
+    .. automethod:: setAlpha
     .. automethod:: enable
     .. automethod:: disable
-    
-    .. rubric:: Attributes
-
-    .. autoattribute:: k_e
-    .. autoattribute:: n
-    .. autoattribute:: E
-    .. autoattribute:: alpha
+    .. automethod:: isEnabled
    
    
    
